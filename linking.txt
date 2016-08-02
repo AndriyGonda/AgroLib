@@ -1,0 +1,1 @@
+gcc -fPIC -shared cJSON.c agro_lib.c simple_geofence.c  -o agro_lib_v3.so -lm -Wall -std=gnu11 -m64 -O3 -fopenmp
